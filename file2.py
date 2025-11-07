@@ -4,7 +4,6 @@ data = json.load(movies)
 year = int(input("Search movies after the year: "))
 years=[]
 for index, item in enumerate(data):
-    years.append(item["title"])
-    years.append(item["year"])
-
-print(years)
+    year =-1
+    if 
+print(data[year]["title"])
