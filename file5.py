@@ -6,4 +6,6 @@ lowert = title.lower()
 for index, item in enumerate(data):
         if (item["title"]).lower() == lowert:
             print(item["title"])
-#bro fix it it no work 💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀
+
+
+#bro fix it it no work 💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀(╯°□°）╯︵ ┻━┻
