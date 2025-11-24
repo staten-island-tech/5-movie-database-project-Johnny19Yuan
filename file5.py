@@ -2,9 +2,11 @@ import json
 movies = open("./movies.json", encoding="utf8")
 data = json.load(movies)
 title = (input("Search for movie title: "))
-lowert = title.lower()
 for index, item in enumerate(data):
-        if (item["title"]).lower() == lowert:
+        if title.lower() in (item["title"]).lower():
             print(item["title"])
 
-#("bro fix it it it it it no work 💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀(╯°□°）╯︵ ┻━┻")
+ 
+
+
+#("bro fix it it it it it no work
